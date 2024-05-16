@@ -15,3 +15,5 @@ Punti fatti e falli subiti. -->
 - Utilizzo una funzione per creare numeri random
 
 <!-- Infine  creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. -->
+
+- Utilizzando il metodo MAP creo un nuovo array con nomi e falli subiti delle squadre
