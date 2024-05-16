@@ -35,4 +35,13 @@ squadreDiCalcio.forEach(squadra => {
     squadra.falliSubiti = getRandomInt(0, 500);
 })
 
-console.log(squadreDiCalcio);
+// Metodo map per creare nuovo array
+const falliSubitiSquadre = squadreDiCalcio.map(squadra => {
+    return {
+        nome: squadra.nome,
+        falliSubiti: squadra.falliSubiti
+    }
+})
+
+console.log('Dati completi:', squadreDiCalcio);
+console.log('Dati su falli subiti:', falliSubitiSquadre);
